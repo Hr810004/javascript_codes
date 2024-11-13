@@ -16,7 +16,7 @@ console.log(jsuser["fullname"]);
 console.log(jsuser[myNew]);
 
 jsuser.email = "harsh810@google.com"
-// Object.freeze(jsuser)
+// Object.freeze(jsuser) // this will prevent any changes in the object
 jsuser.email = "hr810@google.com"
 console.log(jsuser);
 

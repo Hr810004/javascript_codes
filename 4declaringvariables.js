@@ -16,5 +16,5 @@ console.log(accountEmail);
 //usually try not to use var keyword 
 accpass = "8harsh10"
 
-// if you want to print multiple things together in tbale format then use table instead of log
+// if you want to print multiple things together in table format then use table instead of log
 console.table([accountEmail,accountId,accpass,accountstate])

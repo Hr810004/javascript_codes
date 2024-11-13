@@ -47,6 +47,8 @@ const users = [
 
 users[1].email = "hr810@gmail.com"
 console.log(users[1]);
-console.log(Object.keys(User));
-console.log(Object.values(User));
-console.log(Object.entries(User));
+console.log(Object.keys(User)); // returns an array of keys
+console.log(Object.values(User)); // returns array of values
+console.log(Object.entries(User)); // returns array of key value pairs
+
+console.log(User.hasOwnProperty('isLoggedIn'));
