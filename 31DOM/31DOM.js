@@ -1,1 +1,0 @@
-document.querySelector(".heading").innerHTML += "<br>Hello" 

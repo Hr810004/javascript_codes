@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key Press Display</title>
+    <style>
+        body {
+            background-color: rgb(57, 55, 55);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+
+        h3 {
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .color table {
+            border-collapse: collapse;
+            margin: 20px auto;
+            background: #333;
+            color: #fff;
+            border: 1px solid #444;
+        }
+
+        .color th, .color td {
+            border: 1px solid #444;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        .color th {
+            background: #555;
+        }
+        button{
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: 1px solid #848080;
+            background: #605e5e;   
+            color: #fff;
+            cursor: pointer;    
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="project">
+        <div id="insert">
+            <h3>Press any key and watch the magic!</h3>
+        </div>
+        <button>Reset</button>
+    </div>
+
+    <script>
+        const keyPressed = document.getElementById("insert");
+        const reset = document.querySelector("button").addEventListener("click", () => {
+            keyPressed.innerHTML = `<h3>Press any key and watch the magic!</h3>`;
+        });
+
+        window.addEventListener("keydown", (e) => {
+            keyPressed.innerHTML = `
+                <div class='color'>
+                    <table>
+                        <tr>
+                            <th>Key</th>
+                            <th>Keycode</th>
+                            <th>Code</th>
+                        </tr>
+                        <tr>
+                            <td>${e.key === ' ' ? 'Space' : e.key}</td>
+                            <td>${e.keyCode}</td>
+                            <td>${e.code}</td>
+                        </tr>
+                    </table>
+                </div>`;
+        });
+
+    </script>
+</body>
+
+</html>
