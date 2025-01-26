@@ -1,8 +1,6 @@
-# Generating the markdown content for the README file
-readme_content = """
 # JavaScript Codes
 
-Repository for JavaScript learning examples created by **Hr81004**. This repository contains various JavaScript files covering basic to advanced programming concepts, including data types, arrays, objects, functions, events, and more. Additionally, there are multiple HTML examples demonstrating the usage of JavaScript in a web development context.
+Repository for JavaScript learning examples created by **Hr810004**. This repository contains various JavaScript files covering basic to advanced programming concepts, including data types, arrays, objects, functions, events, and more. Additionally, there are multiple HTML examples demonstrating the usage of JavaScript in a web development context.
 
 ## Overview
 
