@@ -21,7 +21,7 @@ To get started, clone this repository to your local machine:
 
 ```bash
 git clone https://github.com/Hr810004/javascript_codes.git
-cd javascript-foundations
+cd javascript_codes
 ```
 
 Make sure you have [Node.js](https://nodejs.org/) installed to run JavaScript code locally. You can verify installation with:
