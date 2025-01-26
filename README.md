@@ -20,7 +20,7 @@ JavaScript is a powerful and versatile programming language used to create dynam
 To get started, clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/javascript-foundations.git
+git clone https://github.com/Hr810004/javascript_codes.git
 cd javascript-foundations
 ```
 
