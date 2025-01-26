@@ -8,9 +8,7 @@ Welcome to the **JavaScript Foundations and Concepts** repository! This reposito
 2. [Getting Started](#getting-started)
 3. [Repository Structure](#repository-structure)
 4. [Topics Covered](#topics-covered)
-5. [How to Use This Repository](#how-to-use-this-repository)
-6. [Contributing](#contributing)
-7. [License](#license)
+
 
 ---
 
